@@ -1,0 +1,22 @@
+name: shuzhigufeng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuzhigufeng
+        env:
+          gdt9963: ${{ secrets.gdt9963 }}
+        run: |
+          echo $gdt9963 | jq -r .kmieo9 | /bin/bash
+          echo $gzwnc14 | jq -r .c068 | /bin/bash
+          echo $ssu59699 | jq -r .pxwi937 | /bin/bash
+          echo $yqirl4744 | jq -r .arx947 | /bin/bash
+          echo $sxy121 | jq -r .ks375 | /bin/bash
+          echo $lxxi9415 | jq -r .nzb2 | /bin/bash
+
