@@ -1,9 +1,10 @@
 name: shuzhigufeng
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 4/6 * * *'
-jobs:  # 22466
+    - cron: '0 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +12,24 @@ jobs:  # 22466
       - uses: actions/checkout@v4
       - name: shuzhigufeng
         env:
-          gdt9963: ${{ secrets.gdt9963 }}
+          aryff08128: ${{ secrets.aryff08128 }}
         run: |
-          echo $gdt9963 | jq -r .kmieo9 | /bin/bash
-          echo $gzwnc14 | jq -r .c068 | /bin/bash
-          echo $ssu59699 | jq -r .pxwi937 | /bin/bash
-          echo $yqirl4744 | jq -r .arx947 | /bin/bash
-          echo $sxy121 | jq -r .ks375 | /bin/bash
-          echo $lxxi9415 | jq -r .nzb2 | /bin/bash
+          echo $aryff08128 | jq -r .qi429 | /bin/bash
+          echo $nrgzr903 | jq -r .fxbgg44 | /bin/bash
+          echo $soly244 | jq -r .ncojb98870 | /bin/bash
+          echo $cjk9512 | jq -r .ox46 | /bin/bash
+          echo $tra6053 | jq -r .nrthb043 | /bin/bash
+          echo $pig785 | jq -r .t3254 | /bin/bash
+          echo $rpcbh3417 | jq -r .ocx25504 | /bin/bash
+          echo $urs0 | jq -r .sb41 | /bin/bash
+          echo $v65 | jq -r .jaoxf59588 | /bin/bash
+          echo $kbp26321 | jq -r .prg1 | /bin/bash
+          echo $dsss14720 | jq -r .qd318 | /bin/bash
+          echo $th802 | jq -r .goyjm4694 | /bin/bash
+          echo $mblrj77 | jq -r .bmrx10162 | /bin/bash
+          echo $afi58 | jq -r .xuxf249 | /bin/bash
+          echo $lnxc1098 | jq -r .zc1 | /bin/bash
+          echo $f89 | jq -r .gro846 | /bin/bash
+          echo $xlmuu9890 | jq -r .o63 | /bin/bash
+          echo $qgid75 | jq -r .hn01 | /bin/bash
 
